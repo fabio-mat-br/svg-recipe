@@ -1,0 +1,12 @@
+grid -80 -20 50 50
+circle 10 10 2.5 blue
+circle -10 10 2.5 blue
+circle -10 -10 2.5 blue
+circle 10 -10 2.5 blue
+# TODO: the last argument `stroke: #000; stroke-dasharray:0.5, 0.5;stroke-width:.5` will be a style attribute
+circle 10 10 2.5 blue stroke: #000; stroke-dasharray:0.5, 0.5;stroke-width:.5
+# L = Line, B = Box, BF = Box Fill
+line 10 10 20 20 red BF
+line 30 10 40 20 green B
+line 10 30 20 40 yellow L
+triangle
